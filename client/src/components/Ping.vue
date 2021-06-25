@@ -11,7 +11,8 @@ export default {
   name: 'Ping',
   data() {
     return {
-      msg: '',
+    // Results in a blank screen if msg is ''
+      msg: 'pong!', 
     };
   },
   methods: {
